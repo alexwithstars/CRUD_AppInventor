@@ -55,21 +55,21 @@ Luego de eliminar al usuario, ejecutamos el procedimiento limpiar.
 
 Para registrar a los nuevos usuarios hacemos uso del bloque ___Guardar Valor___. Debemos de armar el campo donde se almacenará los datos del usuario a registrar. Primero se crea la etiqueta principal, esta etiqueta se encargará de almacenar otras etiquetas y en estas otras etiquetas se almacenará los datos. Cada usuario tendrá su propia etiqueta principal y sus sub-etiquetas para que sea más fácil y ordenado ubicar sus datos.
 Para ello, uniremos el texto de la ___Caja de Texto___ del ___usuario___, con una sub-etiqueta llamada ___/Usuario___... 
-La diagonal seguida de un texto es la que te permitirá crear una segunda etiqueta, en este caso será la etiqueta usuario y lo que almacenará en esa etiqueta será lo que escribimos en la caja usuario.
+La diagonal seguida de un texto es la que te permitirá crear una segunda etiqueta, en este caso será la etiqueta usuario y lo que almacenará en esa etiqueta será lo que escribimos en la caja usuario, así se deberia de ir viendo.
 
 ![alternativo](images/registrar1.png)
 
-Faltaría registrar el nombre y el correo, para ello duplicamos el bloque ya creado...
+Faltaría registrar el nombre y el correo, para ello duplicamos el bloque de ___Guardar Valor___ ya creado...
 Usamos la diagonal y el nombre de la etiqueta principal (la etiqueta principal siempre será el usuario), debemos de crear la sub etiqueta para el Nombre: ___/Nombre___, y la ultima etiqueta será para el nombre y guardará lo que hay en la caja nombre. 
 
 ![alternativo](images/registrar2.png)
 
-Posteriormente haremos lo mismo, pero ahora para registrar el correo.
+Finalmente haremos lo mismo, duplicaremos los bloques de ___Guardar Valor___, pero ahora para registrar el correo...
 Luego de Registrar o Modificar a un usuario, debemos de ejecutar la función ___Limpiar___ para actualizar los datos de la lista.
 
 ![alternativo](images/registrar3.png)
 
-Lo que vamos a hacer a continuación es enviar los datos del usuario seleccionado a las cajas de texto, esto será útil para facilitar la modificación de cada usuario. Necesitamos crear un bucle, este bucle tendrá que recorrer por cada sub-etiqueta, cada etiqueta principal tiene ___usuario, nombre y correo___, entonces deberá de recorrer tres veces. Necesitamos agregar una condicion... Sí en la primera vuelta recoge la sub-etiqueta usuario, entonces el número que está recorriendo el bucle es el 1, por lo tanto obtendrá la sub-etiqueta usuario.
+Lo que vamos a hacer a continuación es enviar los datos del usuario seleccionado a las cajas de texto, esto será útil para facilitar la modificación de cada usuario. Para ello necesitamos crear un bucle, este bucle tendrá que recorrer por cada sub-etiqueta, cada etiqueta principal tiene ___usuario, nombre y correo___, entonces deberá de recorrer tres veces. Necesitamos agregar una condicion... Sí en la primera vuelta recoge la sub-etiqueta usuario, entonces el número que está recorriendo el bucle es el 1, por lo tanto obtendrá la sub-etiqueta usuario.
 
 ![alternativo](images/registrar4.png)
 
