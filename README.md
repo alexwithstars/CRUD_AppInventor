@@ -49,7 +49,7 @@ Seguimos con el botón eliminar. Este botón primero ubicará en la base de dato
 escrito en la caja de texto ___usuarios___, luego lo eliminará. Para eliminarlo se usará el bloque ___Eliminar Elemento con Índice___ del nombre de usuario escrito en la ___Caja Buscar___.
 Luego de eliminar al usuario, ejecutamos el procedimiento limpiar.
 
-![alternativo](images/eliminar.png)
+![alternativo](images/adioxx.png)
 
 ### Registrar
 
